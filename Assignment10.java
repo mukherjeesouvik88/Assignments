@@ -10,11 +10,14 @@ public class Assignment10 {
 	}
 
 	private static void RandomStr() {
+        int i = 0;
 	String[]	article = {"the", "a",  "one", "some" };
 	String[] 	noun = {"boy", "girl", "dog", "town", "car"};
 	String[]	verb = {"drove", "jumped", "ran", "walked", "skipped"};
 	String[]	preposition = {"to", "from", "over", "under", "on"};	
-	
+		
+	while(i<20){
+		
 	int s1 = new Random().nextInt(4);
 	int s2 = new Random().nextInt(5);
 	int s3 = new Random().nextInt(5);
@@ -26,6 +29,8 @@ public class Assignment10 {
 	
 	System.out.println(cap+ " "+noun[s2]+ " " +verb[s3]+ " " +preposition[s4]+ " "+ article[s5]+ " "+ noun[s6]+ "." );
 	
+	i++;
+	}
 	
 	}
 
