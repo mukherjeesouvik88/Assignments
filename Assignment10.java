@@ -28,6 +28,7 @@ public class Assignment10 {
 	String cap = str.substring(0, 1).toUpperCase() + str.substring(1);
 	
 	System.out.println(cap+ " "+noun[s2]+ " " +verb[s3]+ " " +preposition[s4]+ " "+ article[s5]+ " "+ noun[s6]+ "." );
+        System.out.println();
 	
 	i++;
 	}
